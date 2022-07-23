@@ -4,6 +4,5 @@ def adder(*n):
     for i in n:
         sum += i
 
-    print("Sum: ", sum)
 
 adder(4, 2, 8)
