@@ -10,7 +10,6 @@ def nd(n):
                 a.append(n//i)
         i += 1
     a.sort()
-    print(a)
-
+    print("Nunbers_of_elements: ", len(a))
 
 nd(4)

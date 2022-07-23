@@ -1,6 +1,9 @@
-x = int(input())
-sum = 0
-for i in range(x):
-    n = int(input())
-    sum += n
-print(sum)
+def adder(*n):
+    sum = 0
+
+    for i in n:
+        sum += i
+
+    print("Sum: ", sum)
+
+adder(4, 2, 8)

@@ -5,3 +5,4 @@ def max(a, b):
         return a
     return b
 print(max(*f()))
+

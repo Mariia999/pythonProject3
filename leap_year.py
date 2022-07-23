@@ -1,11 +1,14 @@
-year = int(input("Year "))
-if year % 4 != 0:
-    print("No")
+def y(a):
 
-elif year % 100 == 0:
-    if year % 400 == 0:
-        print("Yes")
-    else:
+    if a % 4 != 0:
         print("No")
-else:
-    print("Yes")
+    elif a % 100 == 0:
+        if a % 400 == 0:
+            print("Yes")
+        else:
+            print("No")
+    else:
+        print("Yes")
+
+
+y(2000)
